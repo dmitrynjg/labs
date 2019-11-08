@@ -1,11 +1,3 @@
-
-let obj = {x:1, y:2} // создаем объект
-let obj1 = obj; // присвоем obj к obj1
-obj1.x = 2; // поменяем значение у "младшего"
-console.log(obj1.x); // тут понятно, только присвоили
-console.log(obj.x);
-
-
 let array1 = [1, [2, 3, 4], 5];
 
 function flatArray(a1) {
