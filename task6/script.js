@@ -26,8 +26,7 @@ var Player = {
     // TODO
   }
 };
-console.log(Player.currentTrack);
-console.log(Player.display(Player.currentTrack)); // "Track: song.mp3 Status: pause"
+Player.display(Player.currentTrack);
 Player.play();
 
 Player.display();
