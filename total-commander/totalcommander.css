@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.filesharing{
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  font-family: Calibri;
+}
+.filesharing h2{
+  width: 100%;
+}
+.filesharing-item{
+  width: calc(50% - 20px);
+  margin: 10px;
+}
+.item-directory .directory-way{
+  margin-bottom:10px;
+}
+.item-directory .directory-way input{
+  width:calc(100% - 13px);
+  outline: none;
+  border:1px solid #ccc;
+  padding:6px;
+  font-family: 'Segoe UI';
+}
+.item-directory .directory-items{
+  background:#fff;
+  height:200px;
+  border:1px solid #ccc;
+}
+.directory-items .directory-item{
+  position: relative;
+  font-weight: 700;
+  padding: 5px;
+  border-bottom: 0.8px solid #cccccc63;
+  text-indent: 20px;
+}
+.directory-items .directory-item.active{
+ background:#0390f44f;
+}
+.directory-item .directory-item-desc{
+  position: absolute;
+  right:20px;
+  font-weight:500;
+  color:#8c8c8c;
+}
