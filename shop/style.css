@@ -22,10 +22,10 @@ body {
 }
 
 .header-content .header-logo {
-  width:120px;
+  width: 120px;
   height: 50px;
   background: url(https://pbs.twimg.com/media/Dgym8IeXkAInPXI.jpg) no-repeat;
-  background-size:120px;
+  background-size: 120px;
 }
 
 .header-content .header-cart {
@@ -34,9 +34,10 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.header-content .header-cart i:hover{
-  transition:0.4s;
-  color:#4B47C4;
+
+.header-content .header-cart i:hover {
+  transition: 0.4s;
+  color: #4B47C4;
 }
 
 .content {
@@ -126,6 +127,7 @@ body {
   font-weight: 700;
   font-size: 20px;
 }
+
 .product-item .product-price {
   margin: 5px 0;
   font-weight: 650;
