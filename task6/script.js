@@ -28,5 +28,3 @@ var Player = {
 };
 Player.display(Player.currentTrack);
 Player.play();
-
-Player.display();
