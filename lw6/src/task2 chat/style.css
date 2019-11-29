@@ -1,0 +1,130 @@
+.page {
+  margin: 0;
+  padding: 0;
+  background: #fcfafa;
+}
+
+.chat {
+  max-width: 600px;
+  background: #FFF;
+  margin: auto;
+  font-family: Calibri, sans-serif;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+
+.chat-content {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.chat-user {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 5px;
+}
+
+.chat-user-avatar, .bubble-message-user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.chat-user-avatar__photo, .bubble-message-user-avatar__photo {
+  width: 40px;
+  height: auto;
+}
+
+.chat-user__name {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.chat-user__online {
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #8BC34A;
+}
+
+.bubble-message-user__name {
+  font-size: 15px;
+  margin-left: 6px;
+}
+
+.chat-messages {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 114px);
+  overflow-y: scroll;
+}
+
+.chat-messages-bubble {
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.chat-messages-bubble_right {
+  transform: translateX(25%);
+  background: #94C2ED;
+  color: #fff;
+}
+
+.chat-messages-bubble_left {
+  background: #eaeaea;
+  color: #1a1a1a;
+}
+
+.bubble-message-user {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px 10px 10px;
+}
+
+.bubble-message__text {
+  padding: 0px 5px 10px 10px;
+  font-size: 14px;
+}
+
+.chat-form {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.chat-form-wrap {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  background: #eaeaea;
+  padding: 10px;
+  display: flex;
+}
+
+.chat-form-wrap__input {
+  width: 90%;
+  outline: 0;
+  border: 0;
+  background: transparent;
+}
+
+.chat-form-wrap-send {
+  width: 8%;
+  text-align: right;
+}
+
+.chat-form-wrap-send__btn {
+  outline: 0;
+  border: 0;
+  background: transparent;
+}
+
+.chat-form-wrap-send__btn:hover {
+  color: #94C2ED;
+}
