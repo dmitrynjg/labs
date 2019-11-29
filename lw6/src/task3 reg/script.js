@@ -1,6 +1,8 @@
 window.onload = function(){
+'use strict';
 var btnReg = document.querySelector('.form__btn');
 function dataCheck(){
+'use strict';
 var fioUser = document.querySelector('.form-reg__fio');
 var emailUser = document.querySelector('.form-reg__email');
 var passwordUser = document.querySelectorAll('.form-reg__password');
