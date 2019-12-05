@@ -17,13 +17,13 @@ function addMessage(iSender) {
       name = 'Alexander Kalinin';
       avatar = 'images/alexander.jpg';
     }
-    var messageTemplate = '<div class=\'bubble-message-user\'>';
-    messageTemplate += '<div class=\'bubble-message-user-avatar\'>';
-    messageTemplate += '<img src=\''+avatar+'\' alt=\'avatar user\' class=\'bubble-message-user-avatar__photo\' alt=\'аватарка\'>';
-    messageTemplate += '</div>';
-    messageTemplate += '<div class=\'bubble-message-user__name\'>'+name+'</div>';
-    messageTemplate += '</div>';
-    messageTemplate += '<div class=\'bubble-message__text\'>'+messageText+'</div>';
+    var messageTemplate = '<div class=\'bubble-message-user\'>'
+    + '<div class=\'bubble-message-user-avatar\'>'
+    + '<img src=\''+avatar+'\' alt=\'avatar user\' class=\'bubble-message-user-avatar__photo\' alt=\'аватарка\'>'
+    + '</div>'
+    + '<div class=\'bubble-message-user__name\'>'+name+'</div>'
+    + '</div>'
+    + '<div class=\'bubble-message__text\'>'+messageText+'</div>';
     messageOutput.innerHTML = messageTemplate;
     document.querySelector('.chat-messages-output').appendChild(messageOutput);
     var chat = document.querySelector('.chat-messages');

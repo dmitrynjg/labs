@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 50%;
+  width: 650px;
   margin: auto;
   border: 1px solid #e9e8e8;
   padding: 70px 0;
@@ -10,6 +10,7 @@
 
 .form-reg {
   width: 80%;
+  height: 60px;
 }
 
 .form-reg__input {
@@ -19,16 +20,17 @@
   padding: 10px;
   background: #f7f7f7;
   margin-top: 20px;
-  font-family: Calibri;
-  color:#1abc9c;
+  font-family: 'Arial';
+  color: #1abc9c;
 }
 
 .form-reg-select {
   width: 100%;
   margin-top: 20px;
-  font-family: Calibri;
+  font-family: 'Arial';
   padding: 10px;
   border: 1px solid #1abc9c;
+  color: #1abc9c;
 }
 
 .form__btn {
@@ -37,7 +39,7 @@
   outline: none;
   width: 50%;
   padding: 10px;
-  font-family: Calibri;
+  font-family: 'Arial';
   font-weight: 700;
   background: #1abc9c;
   color: #fff;
@@ -48,12 +50,28 @@
   transition: 0.5s;
   background: #127763;
 }
-.form-reg_fioerror::after{
-  font-family:Calibri;
-  content:'Вы ввели ФИО неправильно';
-  color:red;
-}
+
 .form-reg__input_error {
-  border:1px solid red;
-  color:red;
+  border: 1px solid red;
+}
+
+.form-reg_error {
+  color: red;
+  font-family:'Calibri';
+}
+
+.form-reg_fioerror::after {
+  content: 'Вы ввели ФИО неправильно';
+}
+
+.form-reg_emailerror::after {
+  content: 'Email указан неверно';
+}
+
+.form-reg_passerror::after {
+  content: 'Пароль должен состоять из 8 символов и латинских букв';
+}
+
+.form-reg_againpasserror::after {
+  content: 'Пароли не совпадают';
 }
