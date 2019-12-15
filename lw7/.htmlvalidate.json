@@ -7,7 +7,6 @@
       {
         "style": "any"
       }
-    ],
-    "wcag/h30": ["warn"]
+    ]
   }
 }
